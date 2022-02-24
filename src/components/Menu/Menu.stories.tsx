@@ -30,6 +30,7 @@ Example.argTypes = { ...argTypes };
 Example.args = {
   'aria-label': 'Menu component',
   onAction: action('onAction'),
+  selectionMode: 'single',
   children: [
     <Item key="one">One</Item>,
     <Item key="two">Two</Item>,
