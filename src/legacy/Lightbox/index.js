@@ -544,7 +544,7 @@ class Lightbox extends React.Component {
         aria-labelledby={this.nameId}
       >
         {/* adding this so that focus styling applies to components inside the modal. */}
-        <MomentumThemeProvider theme={this.props.theme}>
+        {/* <MomentumThemeProvider theme={this.props.theme}> */}
           <div className="md-lightbox__header">
             <div className="md-lightbox__header-item--left">
               <div className="md-lightbox__header-meta">
@@ -597,7 +597,7 @@ class Lightbox extends React.Component {
               {viewportControls()}
             </div>
           </div>
-        </MomentumThemeProvider>
+        {/* </MomentumThemeProvider> */}
       </Modal>
     );
   }

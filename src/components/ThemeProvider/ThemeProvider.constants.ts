@@ -35,6 +35,8 @@ const THEMES = {
 
 const DEFAULTS = {
   THEME: THEME_NAMES.DARK_WEBEX,
+  // momentum-design typography class to be set
+  TYPOGRAPHY: 'mds-typography',
 };
 
 export {
